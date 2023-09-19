@@ -11,7 +11,7 @@ import requests
 db = SQLAlchemy()
 app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///best_films.db"
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = 'Enter key'
 db.init_app(app)
 Bootstrap5(app)
 
